@@ -123,24 +123,15 @@ fun main(args: Array<String>) {
         a8 == 7 -> println("Воскресение")
         else -> println("В неделе 7 дней")
     }
+    /**
+     * особенности работы с массивами
+     */
 
+    val arrNum: Array<Int> = arrayOf(64,13,52,62)
+    val getNum  = arrNum[3]
 
-    var string1 = "cat"
-    var string2 = "dog"
-    var string3 = "mouse"
-    string3 = string1
-    string1 = string2
-    string2 = string3
-    println(string2)
+    val integerNumArr: IntArray = intArrayOf(12,1214,124,5,5)
+    val charArr: CharArray = charArrayOf('a','d')
 
-}
-fun main1(args: Array<String>) {
-    var string1 = "cat"
-    var string2 = "dog"
-    var string3 = "mouse"
-    string3 = string1
-    string1 = string2
-    string2 = string3
-    println(string2)
 
 }
