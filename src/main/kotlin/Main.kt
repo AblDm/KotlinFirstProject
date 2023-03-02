@@ -131,6 +131,9 @@ fun main(args: Array<String>) {
     val getNum  = arrNum[3]
 
     val integerNumArr: IntArray = intArrayOf(12,1214,124,5,5)
+    integerNumArr[0] = integerNumArr[1] +integerNumArr[2]
+    println(integerNumArr[0])
+
     val charArr: CharArray = charArrayOf('a','d')
 
 
